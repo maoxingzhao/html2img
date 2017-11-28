@@ -16,8 +16,8 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-from PyQt4.QtWebKit import *
-from PyQt4 import QtGui, QtCore
+from PySide.QtWebKit import *
+from PySide import QtGui, QtCore
 import sys, bisect, getopt
 
 app=QtGui.QApplication([])
